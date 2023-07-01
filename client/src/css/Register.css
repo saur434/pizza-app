@@ -1,0 +1,36 @@
+.registration-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px;
+    max-width: 10000px;
+}
+
+.custom-button {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+/* Optional: Add any additional styling or effects for the button */
+.custom-button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+.custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+}
+
+.registration-form input::placeholder {
+    color: #999999;
+    font-style: italic;
+}
